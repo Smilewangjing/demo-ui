@@ -1,0 +1,21 @@
+{
+  "name": "demo-ui",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^4.1.3",
+    "typescript": "^4.9.3",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@demo-ui/components": "workspace:^1.0.0",
+    "@demo-ui/theme-chalk": "workspace:^1.0.0",
+    "@demo-ui/utils": "workspace:^1.0.0"
+  }
+}
